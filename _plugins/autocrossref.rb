@@ -25,7 +25,6 @@ module Jekyll
 require 'yaml'
 
   class AutoCrossRefBlock < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
     end
@@ -117,7 +116,6 @@ module Jekyll
 require 'yaml'
 
   class AutoCrossRefBlockDisabled < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
     end
