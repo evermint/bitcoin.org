@@ -105,7 +105,6 @@ module Jekyll
           # platforms and OSes
           walletPlatforms.each do |platform|
             platform['os'].each do |os|
-
               # This allows generation only of valid wallet pages
               if platform['name']
                 if platform['name'] == os['name']
@@ -126,7 +125,6 @@ module Jekyll
 
                 site.pages << WalletPage.new(site, site.source, File.join(lang, walletsDir, dir), wallet, platform, os, fullTitle, lang)
               end
-
             end
           end
         end
