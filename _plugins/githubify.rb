@@ -43,7 +43,6 @@ require 'yaml'
   end
 end
 
-
 ## Code to run if plugin is disabled
 module Jekyll
 
