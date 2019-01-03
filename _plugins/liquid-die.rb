@@ -27,5 +27,4 @@ module Jekyll
   end
 end
 
-
 Liquid::Template.register_tag('die', Jekyll::LiquidDie)
