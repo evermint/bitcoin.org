@@ -63,7 +63,6 @@ require 'yaml'
         site['crossref_loaded'] = true
       end
 
-
       ## Sort terms by reverse length, so longest matches get linked
       ## first (e.g. "block chain" before "block"). Otherwise short
       ## terms would get linked first and there'd be nothing for long
@@ -131,8 +130,6 @@ require 'yaml'
     end
   end
 end
-
-
 
 #Do nothing if plugin is disabled
 if !ENV['ENABLED_PLUGINS'].nil? and ENV['ENABLED_PLUGINS'].index('autocrossref').nil?
