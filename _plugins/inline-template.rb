@@ -50,8 +50,6 @@ require 'yaml'
   end
 end
 
-
-
 #Do nothing if plugin is disabled
 ## Note: tested 2015-04-12 and the site actually compiles 5 seconds
 ##       *faster* with this enabled, so hardcoding it to enabled for now
