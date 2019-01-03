@@ -14,7 +14,6 @@ module Jekyll
 require 'yaml'
 
   class GitHubifyBlock < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
       @repository_url = text.strip()
@@ -49,7 +48,6 @@ module Jekyll
 require 'yaml'
 
   class GitHubifyBlockDisabled < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
     end
