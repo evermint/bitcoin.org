@@ -14,7 +14,6 @@
 module Jekyll
 
   class LiquidDie < Liquid::Tag
-
     def initialize(tag_name, text, tokens)
       super
       @error = text
