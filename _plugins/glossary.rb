@@ -104,13 +104,11 @@ module Jekyll
       site.config["devsearches"]["Glossary"][lang].sort_by!{|hash|
           hash.to_s.downcase.gsub(/"=>.*/,'')
       }
-
     end
   end
 
   class GlossaryPageGenerator < Generator
     def generate(site)
-
       #Do nothing if plugin is disabled
       if !ENV['ENABLED_PLUGINS'].nil? and ENV['ENABLED_PLUGINS'].index('glossary').nil?
         print 'Glossary disabled' + "\n"
