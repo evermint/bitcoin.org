@@ -14,7 +14,6 @@ module Jekyll
 require 'yaml'
 
   class InlineTemplateBlock < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
       @template_name = '_templates/' + text.gsub(' ','') + '.inline'
@@ -36,7 +35,6 @@ module Jekyll
 require 'yaml'
 
   class InlineTemplateBlockDisabled < Liquid::Block
-
     def initialize(tag_name, text, tokens)
       super
     end
