@@ -141,7 +141,6 @@ module Jekyll
 
             if cat == "Glossary"
                 items.each {| lang, list |
-
                     list.each {| el |
                         flat = el.flatten
                         devsearches_json.push({
