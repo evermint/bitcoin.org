@@ -7,7 +7,6 @@ require 'json'
 module Jekyll
 
   class GlossaryPage < Page
-
     def initialize(site, base, lang, srcdir, src, output_directory)
       @site = site
       @base = base
