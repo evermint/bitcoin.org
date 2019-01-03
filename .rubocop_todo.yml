@@ -6,18 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 9
-# Cop supports --auto-correct.
-Layout/EmptyLinesAroundMethodBody:
-  Exclude:
-    - '_contrib/comparelinks.rb'
-    - '_plugins/contributors.rb'
-    - '_plugins/events.rb'
-    - '_plugins/glossary.rb'
-    - '_plugins/redirects.rb'
-    - '_plugins/releases.rb'
-    - '_plugins/wallets.rb'
-
 # Offense count: 32
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.

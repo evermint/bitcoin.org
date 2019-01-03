@@ -143,7 +143,6 @@ module Jekyll
           site.sitecontributors = Marshal.load(file)
         end
       end
-
     end
   end
 
