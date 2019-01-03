@@ -14,7 +14,6 @@
 module Jekyll
 
   class LiquidWarn < Liquid::Tag
-
     def initialize(tag_name, text, tokens)
       super
       @warning = text
