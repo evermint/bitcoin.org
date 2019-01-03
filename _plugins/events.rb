@@ -94,7 +94,6 @@ module Jekyll
           site.conferences = Marshal.load(file)
         end
       end
-
     end
   end
 
