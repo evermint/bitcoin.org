@@ -27,7 +27,6 @@ if !File.exist?('_config.yml')
 end
 
 def fetchlinks()
-
 	# Fetch new list of links
 	links = {}
 	dirs = Dir.glob(WORKDIR + "/_site/**/*.html").each { |file| 
@@ -48,7 +47,6 @@ def fetchlinks()
 	}
 
 	return links
-
 end
 
 Dir.mktmpdir{|workdir|
