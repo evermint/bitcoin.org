@@ -17,7 +17,6 @@ require 'yaml'
 module Jekyll
 
   class ReleasePage < Page
-
     def initialize(site, base, lang, srcdir, src, output_directory)
       @site = site
       @base = base
@@ -68,7 +67,6 @@ module Jekyll
       end
       return x
     end
-
   end
 
   class ReleasePageGenerator < Generator
