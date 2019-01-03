@@ -15,7 +15,6 @@ require 'cgi'
 module Jekyll
 
   class EventPageGenerator < Generator
-
     def conferences
       conferences = []
       # Loop in _events.yml
@@ -97,7 +96,6 @@ module Jekyll
       end
 
     end
-
   end
 
 end
