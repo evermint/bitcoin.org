@@ -11,7 +11,6 @@ require 'json'
 module Jekyll
 
   class CategoryGenerator < Generator
-
     def contributors(repo, aliases)
       contributors = []
       # Call GitHub API with 100 results per page
@@ -146,7 +145,6 @@ module Jekyll
       end
 
     end
-
   end
 
 end
