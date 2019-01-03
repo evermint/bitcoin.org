@@ -23,7 +23,6 @@ require 'cgi'
 module Jekyll
 
   class TranslateTag < Liquid::Tag
-
     def initialize(tag_name, id, tokens)
       super
       @id = id
